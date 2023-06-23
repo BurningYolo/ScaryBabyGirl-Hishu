@@ -1,0 +1,64 @@
+Converting script [1 / 7]	[\Moe Baker\Advanced First Person Controller\Input\Modules\Key\ControllerKeyInput.cs]
+	Fragments : 4
+		[ 0] : Line:   68	InputMethod   GetKey              	(jumpKey)
+		[ 1] : Line:   69	InputMethod   GetKey              	(sprintKey)
+		[ 2] : Line:   71	InputMethod   GetKeyDown          	(crouchKey)
+		[ 3] : Line:   72	InputMethod   GetKeyDown          	(pronekey)
+
+Converting script [2 / 7]	[\Moe Baker\Advanced First Person Controller\Input\Modules\Unity\ControllerUnityInput.cs]
+	Fragments : 4
+		[ 0] : Line:   66	InputMethod   GetButton           	(jumpButton)
+		[ 1] : Line:   67	InputMethod   GetButton           	(sprintButton)
+		[ 2] : Line:   69	InputMethod   GetButtonDown       	(crouchButton)
+		[ 3] : Line:   70	InputMethod   GetButtonDown       	(proneButton)
+
+Converting script [3 / 7]	[\Moe Baker\Moe Tools\Standalone\Utility\BasicCursor.cs]
+	Fragments : 4
+		[ 0] : Line:   37	Other mod.	[Cursor.visible]
+		[ 1] : Line:   38	Other mod.	[Cursor.lockState]
+		[ 2] : Line:   42	Other mod.	[Cursor.visible]
+		[ 3] : Line:   43	Other mod.	[Cursor.lockState]
+
+Converting script [4 / 7]	[\Moe Baker\Moe Tools\Standalone\Utility\Input\Axis.cs]
+	Fragments : 2
+		[ 0] : Line:   73	InputMethod   GetAxisRaw          	(name)
+		[ 1] : Line:   74	InputMethod   GetAxis             	(name)
+
+Converting script [5 / 7]	[\Moe Baker\Moe Tools\Standalone\Utility\Input\KeyCodeAxis.cs]
+	Fragments : 2
+		[ 0] : Line:   37	InputMethod   GetKey              	(positive)
+		[ 1] : Line:   39	InputMethod   GetKey              	(negative)
+
+Converting script [6 / 7]	[\Scripts\PickUp\RaycasterScript.cs]
+	Fragments : 1
+		[ 0] : Line:   15	Other mod.	[Cursor.lockState]
+
+Converting script [7 / 7]	[\Toon babies\scripts\TBMove.cs]
+	Fragments : 14
+		[ 0] : Line:   42	InputMethod   GetKey              	(KeyCode.C)
+		[ 1] : Line:   43	InputProperty anyKey              
+		[ 2] : Line:   48	InputProperty anyKey              
+		[ 3] : Line:   55	InputProperty anyKey              
+		[ 4] : Line:   70	InputMethod   GetKey              	(KeyCode.C)
+		[ 5] : Line:   81	InputMethod   GetKey              	(KeyCode.LeftShift)
+		[ 6] : Line:   82	InputMethod   GetKey              	(KeyCode.LeftShift)
+		[ 7] : Line:   86	InputMethod   GetAxis             	("Vertical")
+		[ 8] : Line:   89	InputMethod   GetAxis             	("Horizontal")
+		[ 9] : Line:   90	InputMethod   GetAxis             	("Horizontal")
+		[10] : Line:   94	InputMethod   GetButtonDown       	("Jump")
+		[11] : Line:  107	InputMethod   GetButtonDown       	("Jump")
+		[12] : Line:  145	InputMethod   GetAxis             	("Vertical")
+		[13] : Line:  146	InputMethod   GetAxis             	("Vertical")
+
+
+7 scripts modified!
+Overwriting actual scripts...
+	[0 / 7] from  [D:/Aftab Ali/Projects/Others/Baby in Yellow/CF2-Data/Script-Backups/2020-10-06-17-56\Assets-After/\Moe Baker\Advanced First Person Controller\Input\Modules\Key\ControllerKeyInput.cs] to [D:/Aftab Ali/Projects/Others/Baby in Yellow/Assets/\Moe Baker\Advanced First Person Controller\Input\Modules\Key\ControllerKeyInput.cs]
+	[1 / 7] from  [D:/Aftab Ali/Projects/Others/Baby in Yellow/CF2-Data/Script-Backups/2020-10-06-17-56\Assets-After/\Moe Baker\Advanced First Person Controller\Input\Modules\Unity\ControllerUnityInput.cs] to [D:/Aftab Ali/Projects/Others/Baby in Yellow/Assets/\Moe Baker\Advanced First Person Controller\Input\Modules\Unity\ControllerUnityInput.cs]
+	[2 / 7] from  [D:/Aftab Ali/Projects/Others/Baby in Yellow/CF2-Data/Script-Backups/2020-10-06-17-56\Assets-After/\Moe Baker\Moe Tools\Standalone\Utility\BasicCursor.cs] to [D:/Aftab Ali/Projects/Others/Baby in Yellow/Assets/\Moe Baker\Moe Tools\Standalone\Utility\BasicCursor.cs]
+	[3 / 7] from  [D:/Aftab Ali/Projects/Others/Baby in Yellow/CF2-Data/Script-Backups/2020-10-06-17-56\Assets-After/\Moe Baker\Moe Tools\Standalone\Utility\Input\Axis.cs] to [D:/Aftab Ali/Projects/Others/Baby in Yellow/Assets/\Moe Baker\Moe Tools\Standalone\Utility\Input\Axis.cs]
+	[4 / 7] from  [D:/Aftab Ali/Projects/Others/Baby in Yellow/CF2-Data/Script-Backups/2020-10-06-17-56\Assets-After/\Moe Baker\Moe Tools\Standalone\Utility\Input\KeyCodeAxis.cs] to [D:/Aftab Ali/Projects/Others/Baby in Yellow/Assets/\Moe Baker\Moe Tools\Standalone\Utility\Input\KeyCodeAxis.cs]
+	[5 / 7] from  [D:/Aftab Ali/Projects/Others/Baby in Yellow/CF2-Data/Script-Backups/2020-10-06-17-56\Assets-After/\Scripts\PickUp\RaycasterScript.cs] to [D:/Aftab Ali/Projects/Others/Baby in Yellow/Assets/\Scripts\PickUp\RaycasterScript.cs]
+	[6 / 7] from  [D:/Aftab Ali/Projects/Others/Baby in Yellow/CF2-Data/Script-Backups/2020-10-06-17-56\Assets-After/\Toon babies\scripts\TBMove.cs] to [D:/Aftab Ali/Projects/Others/Baby in Yellow/Assets/\Toon babies\scripts\TBMove.cs]
+
+Overwriting COMPLETED!
